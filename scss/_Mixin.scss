@@ -1,0 +1,22 @@
+
+@mixin ite {
+    display: flex;
+    align-items: center;
+}
+
+@mixin ctn_habi {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin Btn($s) {
+    height: $s;
+    width: $s;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+}

@@ -1,0 +1,181 @@
+
+@import "Mixin";
+
+.Main{
+    margin: 20px 0px;
+    height: 1380px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 601px) and (max-width: 980px){
+        &{
+            margin-top: -30px;
+        }
+    }
+    @media (min-width: 250px) and (max-width: 600px){
+        &{
+            height: 1050px;
+        }
+    }
+
+    .Portada{
+        @include ite;
+        height: 600px;
+        width: 100%;
+        justify-content: space-around;
+        #Perfil{
+            height: 350px;
+        }
+
+        .Biografia{
+            width: 30%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: left;
+
+            .Biografia__Titulo{
+                font-size: 40px;
+                color: $color_Primario
+            }
+    
+            #Parrafo{
+                position: relative;
+                height: 100px;
+                width: 100%;
+                display: flex;
+
+                .Biografia__Parrafo{
+                    align-items: center;
+                    text-align: justify;
+                    font-size: 15px;
+                    line-height: 35px;
+                    color: $color_Dark;
+                    body.dark_mode &{
+                        color: $color_Ligth;
+                    }
+                }
+            }
+        }
+
+        @media(min-width: 641px) and (max-width: 980px){
+            &{
+                position: relative;
+                flex-direction: column;
+                text-align: center;
+                margin-top: 70px;
+                #Perfil{
+                    height: 280px;
+                }
+                .Biografia{
+                    width: 100%;
+                    align-items: center;
+
+                    .Biografia__Titulo{
+                        font-size: 30px;
+                    }
+                    #Parrafo{
+                        width: 80%;
+                        .Biografia__Parrafo{
+                            font-size: 16px;
+                            text-align: center;
+                            margin-top: -10px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 250px) and (max-width: 640px){
+            &{
+                flex-direction: column;
+                text-align: center;
+                height: 480px;
+                margin-top: 13%;
+                #Perfil{
+                    height: 200px;
+                }
+                .Biografia{
+                    width: 100%;
+                    align-items: center;
+                    
+                    .Biografia__Titulo{
+                        margin-top: 60px;
+                        margin-bottom: 20px;
+                        font-size: 25px;
+                    }
+                    #Parrafo{
+                        width: 80%;
+                        .Biografia__Parrafo{
+                            font-size: 12px;
+                            text-align: center;
+                            margin: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .Habilidades{
+        margin: 90px 0;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        h2{
+            font-size: 30px;
+            letter-spacing: 1.5px;
+            color: $color_Dark;
+            body.dark_mode &{
+                color: $color_Ligth;
+            }
+        }
+
+        #Habilidades{
+            width: 100%;
+
+            #Habilidades__Texto{
+                margin: 20px 0 50px 10%;
+                letter-spacing: 1.5px;
+                color: $color_Dark;
+                body.dark_mode &{
+                    color: $color_Ligth;
+                }
+            }
+            .Desarrollo{
+                @include ctn_habi;
+                .Ctn__Desarrollo{
+                    @include ite;
+                    justify-content: space-around;
+                    #Desarrollo{
+                        font-size: 50px;
+                        color: $color_Primario;
+                    }
+                }
+            }
+            .Diseño{
+                @include ctn_habi;
+                .Ctn__Diseño{
+                    @include ite;
+                    justify-content: space-around;
+                    #Design{
+                        height: 50px;
+                        
+                    }
+                }
+            }
+        }
+        @media(min-width: 601px) and (max-width: 980px){
+            h2{
+                margin-top: 30px;
+            }
+        }
+        @media (min-width: 250px) and (max-width: 600px){
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+}

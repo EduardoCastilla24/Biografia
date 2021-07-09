@@ -1,0 +1,62 @@
+
+@import "Variables";
+@import "Mixin";
+
+.Nav{
+    @include ite;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px $color_Comple;
+    z-index: 999;
+
+    .Ctn_Logo{
+        height: 100%;
+        width: 150px;
+        margin-left: 40px;
+        @include ite;
+
+        #Logo__Ligth{
+            display: flex;
+            body.dark_mode &{
+                display: none;
+            }      
+        }
+
+        #Logo__Dark{
+            display: none;
+            body.dark_mode &{
+                display: flex;
+            }    
+        }
+
+        @media (min-width: 201px) and (max-width: 601px){
+            &{
+                width: 120px;
+            }
+        }
+    }
+    .Ctn_Switch{
+        margin-right: 40px;
+
+        .Switch__Icon{
+            color: $color_Primario;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        #Switch__Icon-Sun{
+            display: none;
+            body.dark_mode &{
+                display: flex;
+            }
+        }
+
+        #Switch__Icon-Moon{
+            display: flex;
+            body.dark_mode &{
+                display: none;
+            }
+        }
+    }
+}

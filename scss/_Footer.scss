@@ -1,0 +1,42 @@
+
+@import "Variables";
+
+.Footer{
+    height: 120px;
+    width: 100%;
+    background: $color_Primario;
+    @include ite;
+    justify-content: space-between;
+
+    #Contactame{
+        margin-left: 150px;
+        color: $color_Ligth;
+        letter-spacing: 2px;
+    }
+    .Redes{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            text-decoration: none;
+        }
+        #Redes__Icon{
+            align-items: center;
+            font-size: 25px;
+            color: $color_Ligth;
+            @media (max-width: 250px){
+                &{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    @media (min-width: 250px) and (max-width: 701px){
+        #Contactame{
+            margin-left: 10px;
+            font-size: 12px;
+        }
+    }
+}

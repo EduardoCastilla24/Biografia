@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+@import "Variables";
+@import "Nav";
+@import "Main";
+@import "Footer";
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s ease all;
+
+    &.dark_mode{
+        background: $color_Dark;
+    }
+}
