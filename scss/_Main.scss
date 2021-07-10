@@ -3,7 +3,7 @@
 
 .Main{
     margin: 20px 0px;
-    height: 1380px;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     @media (min-width: 601px) and (max-width: 980px){
@@ -22,6 +22,7 @@
         height: 600px;
         width: 100%;
         justify-content: space-around;
+        margin-top: 3%;
         #Perfil{
             height: 350px;
         }
@@ -63,7 +64,7 @@
                 position: relative;
                 flex-direction: column;
                 text-align: center;
-                margin-top: 70px;
+                margin-top:90px;
                 #Perfil{
                     height: 280px;
                 }
@@ -90,9 +91,10 @@
                 flex-direction: column;
                 text-align: center;
                 height: 480px;
-                margin-top: 13%;
+                margin-top: 17%;
+
                 #Perfil{
-                    height: 200px;
+                    height: 220px;
                 }
                 .Biografia{
                     width: 100%;
@@ -117,7 +119,7 @@
     }
 
     .Habilidades{
-        margin: 90px 0;
+        margin-top: 12%;
         height: 600px;
         display: flex;
         align-items: center;
@@ -173,6 +175,9 @@
             }
         }
         @media (min-width: 250px) and (max-width: 600px){
+            &{
+                margin-top: 25%;
+            }
             h2{
                 font-size: 20px;
             }
