@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv='Content-Security-Policy' content='upgrade-insecure-requests'>
+        <!--================== FAVICON ==================-->
+        <link rel='icon' href='img/Logo.svg' type='image/x-icon'>
+        <!--================== ESTILOS ==================-->
+        <link rel='stylesheet' href='css/app.css'>
+        <!--================== BOXICONS ==================-->
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+        <script src="https://kit.fontawesome.com/9c41e41bbb.js" crossorigin="anonymous"></script>
+        <!--================== TITLE ==================-->
+        <title>Eduardo Castilla</title>
+    </head>
+    <body class="body__portfolio scroll">
+        <div class="overlay" id="overlay"></div>
+        <!-- NAVBAR -->
+        <nav>
+            <!-- LOGO -->
+            <span class="logo">
+                <a href="#"><img src="img/Logo.svg" alt=""></a>
+            </span>
+            <!-- LINKS -->
+            <div class="container__links" id="container__links">
+                <ul class="nav__links">
+                    <a href="#about" class="nav__links--item">Sobre mi</a>
+                    <a href="#hobbies" class="nav__links--item">Hobbies</a>
+                    <a href="#skills" class="nav__links--item">Habilidades</a>
+                    <a href="#contact" class="nav__links--item">Contactame</a>
+                    <a href="#calendar" class="nav__links--item">Calendario</a>
+                </ul>
+            </div>
+            <!-- TOGGLE -->
+            <button class="hover:scale-[1.02] flex md:hidden -z-10" id="toggle">
+                <i class="text-2xl bx bx-grid-alt text-primary-color"></i>
+            </button>
+        </nav>
+        <!-- HEADER -->
+        <header id="about">
+            <!-- PROFILE -->
+            <span class="header__profile">
+                <img src="img/biografia/Perfil.jpg" alt="Eduardo Castilla" title="Eduardo Castilla">
+            </span>
+            <!-- DESCRIP -->
+            <div class="header__descrip">
+                <!-- HELLO -->
+                <p class="header__descrip--hello">¡Hola!</p>
+                <!-- NAME -->
+                <h1 class="header__descrip--name">Soy Eduardo Castilla</h1>
+                <!-- PARAGRAPH -->
+                <p class="header__descrip--paragraph">Tengo 21 años, curso el 6to ciclo de la carreara de ing. de Sistemas y me apasiona el desarrollo web.</p>
+            </div>
+        </header>
+        <!-- SECTION HOBBIES-->
+        <section class="relative overflow-hidden section__portfolio wrap mb-[2rem] !w-full lg:!w-[60rem]" id="hobbies">
+            <!-- TITLE -->
+            <h2 class="title__section">Hobbies</h2>
+            <!-- SKILLS -->
+            <div class="hobbies">
+                <div class="hobbies__line"></div>
+                <!-- right timeline -->
+                <div class="hobbies__right">
+                    <div class="order-1 hidden w-5/12 bs:flex"></div>
+                    <div class="hobbies__point">
+                        <p><i class="bx bx-music"></i></p>
+                    </div>
+                    <div class="hobbies__container">
+                        <h3>Música</h3>
+                        <p>Dentro de mis aficiones y pasatiempos, se encuentra la música. <br>
+                            Disfruto de escuchar diferentes géneros musicales, así como tambien tocar instrumentos como la guitarra, bajo, piano e instrumentos de percusión.
+                        </p>
+                    </div>
+                </div>
+                <!-- left timeline -->
+                <div class="hobbies__left">
+                    <div class="order-1 hidden w-5/12 bs:flex"></div>
+                    <div class="hobbies__point">
+                        <p><i class="bx bx-cookie"></i></p>
+                    </div>
+                    <div class="hobbies__container">
+                        <h3>Cocina</h3>
+                        <p>Una de las cosas que más me relajan y divierte de hacer en casa es cocinar. Es algo que me desconecta del estrés, además de permitirme acompañarlo con música y bailes de vez en cuando.</p>
+                    </div>
+                </div>
+                    <!-- right timeline -->
+                    <div class="hobbies__right">
+                    <div class="order-1 hidden w-5/12 bs:flex"></div>
+                    <div class="hobbies__point">
+                        <p><i class="bx bx-camera"></i></p>
+                    </div>
+                    <div class="hobbies__container">
+                        <h3>Fotografía</h3>
+                        <p>Plasmar paisajes y momentos en fotos es sencillamente complaciente, el arte está todas partes y en cualquier momento.<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION -->
+        <section class="section__portfolio wrap w-full lg:w-[60rem]" id="skills">
+            <!-- TITLE -->
+            <h2 class="title__section">Habilidades</h2>
+            <!-- SKILLS -->
+            <article class="skills__container">
+                <div class="skills" title="Maquetado y manejo Html">
+                    <span class="skills__icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </span>
+                    <p class="skills__title">Maquetado Html</p>
+                </div>
+                <div class="skills"  title="Desarrollo en lenguaje JavaScript">
+                    <span class="skills__icon">
+                        <i class="fa-brands fa-square-js"></i>
+                    </span>
+                    <p class="skills__title">Desarrollo Js</p>
+                </div>
+                <div class="skills"  title="Diseño UI/UX">
+                    <span class="skills__icon">
+                        <i class="fa-solid fa-pen-nib"></i>
+                    </span>
+                    <p class="skills__title">Diseño Ui/Ux</p>
+                </div>
+                <div class="skills" title="Gestion de base de Datos">
+                    <span class="skills__icon">
+                        <i class="fa-solid fa-database"></i>
+                    </span>
+                    <p class="skills__title">Gestión de DB</p>
+                </div>
+                <div class="skills" title="Manejo de control de versiones en git">
+                    <span class="skills__icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </span>
+                    <p class="skills__title">Git</p>
+                </div>
+                <div class="skills" title="Desarrollo de aplicaciones en Laravel">
+                    <span class="skills__icon">
+                        <i class="fa-brands fa-laravel"></i>
+                    </span>
+                    <p class="skills__title">Laravel</p>
+                </div>
+                <div class="skills" title="Manejo de Tailwind">
+                    <span class="skills__icon">
+                        <i class='bx bxl-tailwind-css'></i>
+                    </span>
+                    <p class="skills__title">Tailwind Css</p>
+                </div>
+                <div class="skills" title="Maquetado de aplicaciones en figma">
+                    <span class="skills__icon">
+                        <i class="fa-brands fa-figma"></i>
+                    </span>
+                    <p class="skills__title">Diseño figma</p>
+                </div>
+            </article>
+        </section>
+        <!-- SECTION -->
+        <section class="section__portfolio" id="contact">
+            <!-- TITLE -->
+            <h2 class="title__section">Contactame</h2>
+            <!-- FORM -->
+            <form class="form">
+                <div class="form__element">
+                    <label for="" class="form__element--label">Nombres y Apellidos</label>
+                    <input type="text" class="form__element--input peer" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{1,25}" placeholder="Ejemplo">
+                    <span class="form__element--error peer-invalid:scale-100 peer-invalid:h-8">El nombre no debe contener números o carácteres especiales</span>
+                </div>
+                <div class="form__element">
+                    <label for="" class="form__element--label">Email</label>
+                    <input type="email" class="form__element--input peer" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{1,25}" placeholder="ejemplo@gmail.com">
+                    <span class="form__element--error peer-invalid:scale-100 peer-invalid:h-8">El cambo debe contener un email válido</span>
+                </div>
+                <div class="form__element !col-span-2">
+                    <label for="" class="form__element--label">Mensaje</label>
+                    <textarea type="text" class="form__element--textArea peer scroll" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ ]{1,25}" placeholder="Asunto ..."></textarea>
+                </div>
+            </form>
+        </section>
+        <!-- CALENDAR SECTION -->
+        <section class="section__portfolio mt-[4rem]" id="calendar">
+            <!-- TITLE -->
+            <h2 class="title__section title__calendar">CALENDARIO</h2>
+            <!-- CALENDAR -->
+            <article class="calendar__container">
+                <!-- SPAN -->
+                <span class="calendar__text">Calendario Académico 2010/2011</span>
+                <!-- CALENDAR SEPTIEMBRE -->
+                <div class="calendar">
+                    <div class="calendar__month">
+                        <h3 class="">Septiembre</h3>
+                    </div>
+                    <section class="table__calendar--container scroll">
+                        <table class="w-full">
+                            <!-- DAYS -->
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>L</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>M</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>X</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>J</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>V</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>S</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>D</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- NUMBER DAYS -->
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="relative calendar__day--number">
+                                            <i class='bx bx-moon bg-primary-color rounded-full p-1 text-white relative top-[.05rem]'></i>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number"></div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>1</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>2</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>3</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>4</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>5</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>6</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>7</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="w-full h-full">
+                                            <div class="calendar__day--number">
+                                                <p>8</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>9</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>10</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>11</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>12</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>13</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>14</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>15</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>16</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>17</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>18</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>19</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>20</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>21</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>22</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>23</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>24</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>25</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>26</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>27</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>28</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>29</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>30</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+                <!-- CALENDAR OCTUBRE -->
+                <div class="calendar">
+                    <div class="calendar__month">
+                        <h3 class="">Octubre</h3>
+                    </div>
+                    <section class="table__calendar--container scroll">
+                        <table class="w-full">
+                            <!-- DAYS -->
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>L</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>M</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>X</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>J</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>V</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>S</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>D</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- NUMBER DAYS -->
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number"></div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number"></div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>1</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>2</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>3</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>4</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>5</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>6</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>7</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="w-full h-full">
+                                            <div class="calendar__day--number">
+                                                <p>8</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>9</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>10</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>11</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>12</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>13</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>14</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>15</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>16</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>17</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>18</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>19</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>20</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>21</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>22</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>23</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>24</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>25</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>26</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>27</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>28</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>29</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>30</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>31</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+                <!-- CALENDAR NOVIEMBRE -->
+                <div class="calendar">
+                    <div class="calendar__month">
+                        <h3 class="">Noviembre</h3>
+                    </div>
+                    <section class="table__calendar--container scroll">
+                        <table class="w-full">
+                            <!-- DAYS -->
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>L</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>M</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>X</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>J</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>V</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>S</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>D</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- NUMBER DAYS -->
+                            <tbody>
+                                <tr>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>1</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>2</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>3</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>4</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>5</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>6</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>7</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="w-full h-full">
+                                            <div class="calendar__day--number">
+                                                <p>8</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>9</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>10</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>11</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>12</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>13</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>14</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>15</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>16</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>17</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>18</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>19</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>20</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>21</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>22</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>23</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>24</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>25</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>26</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>27</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>28</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>29</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>30</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+                <!-- CALENDAR DICIEMBRE -->
+                <div class="calendar">
+                    <div class="calendar__month">
+                        <h3 class="">Diciembre</h3>
+                    </div>
+                    <section class="table__calendar--container scroll">
+                        <table class="w-full">
+                            <!-- DAYS -->
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>L</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>M</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>X</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>J</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>V</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>S</p>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div class="calendar__day">
+                                            <p>D</p>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <!-- NUMBER DAYS -->
+                            <tbody>
+                                <tr>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <i class='bx bx-moon bg-primary-color rounded-full p-1 text-white relative top-[.05rem]'></i>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>1</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>2</p>
+                                        </div>
+                                    </td>
+                                    <td class="pt-4">
+                                        <div class="calendar__day--number">
+                                            <p>3</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>4</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>5</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>6</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>7</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="w-full h-full">
+                                            <div class="calendar__day--number">
+                                                <p>8</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>9</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>10</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>11</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>12</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>13</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>14</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>15</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>16</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>17</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>18</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>19</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>20</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>21</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>22</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>23</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>24</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>25</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>26</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>27</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>28</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>29</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>30</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="calendar__day--number">
+                                            <p>31</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </article>
+        </section>
+        <!-- FOOTER -->
+        <footer>
+            <span class="logo">
+                <a href="#"><img src="img/Logo.svg" alt=""></a>
+            </span>
+            <p class="footer__copy">Eduardo Castilla - 2023</p>
+            <ul class="footer__links">
+                <a href="https://api.whatsapp.com/send/?phone=977287331" target="_blank" >
+                    <i class="bx bxl-whatsapp" title="WhatsApp"></i>
+                </a>
+                <a href="https://github.com/EduardoCastilla24" target="_blank" >
+                    <i class="bx bxl-github" title="Github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/eduardo-castilla-p-b16685256/" target="_blank">
+                    <i class="bx bxl-linkedin" title="LinkedIn"></i>
+                </a>
+            </ul>
+        </footer>
+        <!--================== MEDIA QUERYS ==================-->
+        <script type='text/javascript' src='https://code.jquery.com/jquery-3.3.1.js'></script>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-latest.js'></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

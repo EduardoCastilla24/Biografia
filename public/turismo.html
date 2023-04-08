@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv='Content-Security-Policy' content='upgrade-insecure-requests'>
+        <!--================== FAVICON ==================-->
+        <link rel='icon' href='img/Logo.svg' type='image/x-icon'>
+        <!--================== ESTILOS ==================-->
+        <link rel='stylesheet' href='css/app.css'>
+        <!--================== BOXICONS ==================-->
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+        <!--================== TITLE ==================-->
+        <title>Turismo</title>
+    </head>
+    <body class="body__turismo scroll">
+        <div class="overlay" id="overlay"></div>
+        <!-- NAVBAR -->
+        <nav class="bg-[#fff]">
+            <!-- LOGO -->
+            <span    n class="logo">
+                <a href="#"><img src="img/Logo.svg" alt=""></a>
+            </span>
+            <!-- LINKS -->
+            <div class="container__links" id="container__links">
+                <ul class="nav__links">
+                    <a href="#lugares" class="nav__links--item">Lugares</a>
+                    <a href="#playas" class="nav__links--item">Playas</a>
+                    <a href="#platos" class="nav__links--item">Platos Tipicos</a>
+                </ul>
+            </div>
+            <!-- TOGGLE -->
+            <button class="hover:scale-[1.02] flex md:hidden -z-10" id="toggle">
+                <i class="text-2xl bx bx-grid-alt text-primary-color"></i>
+            </button>
+        </nav>
+        <!-- HEADER -->
+        <header class="header__turismo">
+            <div class="header__turismo--over"></div>
+            <!-- DESCRIP -->
+            <div class="header__turismo--descrip">
+                <!-- NAME -->
+                <h1>¡Chincha Cuna de Campeones!</h1>
+                <!-- PARAGRAPH -->
+                <p class="header__descrip--paragraph tracking-[.2rem]">Una cálida y noble provincia ubicada en Ica, es la cuna del estilo afroperuano    .</p>
+            </div>
+            <div class="absolute bottom-0 z-20 flex items-center w-full h-fit">
+                <img src="img/turismo/wave.svg" alt="">
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main class="main__turismo">
+            <section class="main__section" id="lugares">
+                <!-- TITLE -->
+                <h2 class="title__section">Lugares</h2>
+                <!-- ARTICLE -->
+                <article class="article__section" id="sectionRow">
+                    <div class="article__row">
+                       <div>
+                            <h3 class="title__article" style="text-align: center;">El Carmen Chincha</h3>
+                            <span>Este lugar de Chincha invita a visitar su iglesia y alrededores, pero especialmente el caserío de Guayabo, en donde sus visitantes os podrán apreciar la música de los hermanos Ballumbrosio.
+                                <br><br>
+                                También podrán de deleitarse con el potaje de la zona y disfrutar del homenaje de la Patrona de la provincia, una de las festividades más representativas de esta localidad. Aquí tenemos lindas casas de campo también.
+                            </span>
+                       </div>
+                        <img  src="https://munielcarmen.gob.pe/wp-content/uploads/2023/01/atardecer-en-el-carmen.jpg" title="Playa Jahuay">
+                    </div>
+                    <div class="article__row" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hacienda_San_Jose%2C_Chincha.jpg/1200px-Hacienda_San_Jose%2C_Chincha.jpg" title="Playa las Totoritas">
+                      <div>
+                        <h3 class="title__article"  style="text-align: center;">Hacienda San José</h3>
+                        <span>Visitar y recorrer cada rincón de la Hacienda San José en Chincha, es algo que no puedes pasar por alto.
+                            <br><br>
+                            En este lugar se encuentra muy arraigado el folklore y las costumbres de Perú, además esta hacienda conserva la arquitectura de la época colonial y refleja toda la historia de este país.
+                            <br><br>
+                            Esta hacienda se ha convertido en un lugar importante para el turismo de Chincha, ofreciendo un diseño y estructura barroca, innumerables artefactos antiguos y grandes puertas de madera, que fácilmente lograrán trasladarte a épocas antiguas.
+                        </span>
+                      </div>
+                    </div>
+                </article>
+            </section>
+            <section class="main__section" id="playas">
+                <h2 class="title__section">Playas</h2>
+                <article class="article__section !items-start">
+                    <div class="article">
+                        <h3 class="title__article">Playa Jahuay</h3>
+                        <span>En Chincha, la playa Jahuay es fabulosa y se caracteriza por sus aguas muy tranquilas y marea baja. Además, es poco visitada por los turistas y generalmente se aprecian aficionados a la pesca a cordel.</span>
+                        <img src="https://img10.naventcdn.com/avisos/11/00/51/16/41/70/1200x1200/40509017.jpg" title="Playa Jahuay">
+                    </div>
+                    <div class="article">
+                        <h3 class="title__article">Playa Las Totoritas</h3>
+                        <span>Esta playa se encuentra en la región Ica, distrito Chincha alta. <br>
+    
+                            Los eventos deportivos más importantes durante el verano se realizan en esta playa y también podrás encontrar varios restaurantes especializados en comida marina.</span>
+                        <img src="http://qala.pe/blog/wp-content/uploads/2013/12/las-playas-de-chincha.jpg" title="Playa las Totoritas">
+                    </div>
+                    <div class="article">
+                        <h3 class="title__article">Playa el Silencio</h3>
+                        <span>La Playa el Silencio en Chincha también es muy concurrida y se ubica justo al lado de la playa las Totoritas y al frente de la bajada de la Perla. Es importante os tener cierto cuidado al visitarla, pues se encuentran pequeños pozos en la orilla.</span>
+                        <img  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/97/98/ba/photo3jpg.jpg?w=1200&h=-1&s=1" title="Playa el Silencio">
+                    </div>
+                </article>
+            </section>
+            <section class="main__section" id="platos">
+                <h2 class="title__section">Platos Tipicos</h2>
+                <article class="article__section" id="sectionRow">
+                    <div class="article__row">
+                       <div>
+                            <h3 class="title__article" style="text-align: center;">Carapulcra</h3>
+                            <span>Uno de los platos más antiguos que se sepa en nuestra historia es la Carapulcra, un guiso indígena a base de papa seca sancochada y carnes guisadas como de pollo, gallina y chancho.
+                                <br><br>
+                                En la región Ica, este potaje se sirve acompañado con sopa seca o llamada también “mancha pecho”, que son fideos con un aderezo de tomate y pimentón, una tradición en Chincha, muy solicitado por su sabor.
+                            </span>
+                       </div>
+                        <img src="data:image/jpeg;base64,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" title="Carapulcra">
+                    </div>
+                    <div class=" article__row md:!flex-row-reverse" style="flex-direction: column-reverse;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZyLvzAN6cgnipGsbuDkG72j8uEMKUpYCaZgnjuTAxrg&s" title="Pescado frito">
+                      <div>
+                        <h3 class="title__article"  style="text-align: center;">Pescado Frito</h3>
+                        <span>El pescaíto frito consiste en freír determinados pescados en aceite de oliva caliente después de haber sido salados y rebozados con harina de trigo de calidad.
+                        </span>
+                      </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="mt-5">
+            <span class="logo">
+                <a href="#"><img src="img/Logo.svg" alt=""></a>
+            </span>
+            <p class="!text-black footer__copy">Eduardo Castilla - 2023</p>
+            <ul class="footer__links">
+                <a href="https://api.whatsapp.com/send/?phone=977287331" target="_blank" >
+                    <i class="bx bxl-whatsapp" title="WhatsApp"></i>
+                </a>
+                <a href="https://github.com/EduardoCastilla24" target="_blank" >
+                    <i class="bx bxl-github" title="Github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/eduardo-castilla-p-b16685256/" target="_blank">
+                    <i class="bx bxl-linkedin" title="LinkedIn"></i>
+                </a>
+            </ul>
+        </footer>
+        <!--================== MEDIA QUERYS ==================-->
+        <script type='text/javascript' src='https://code.jquery.com/jquery-3.3.1.js'></script>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-latest.js'></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
